@@ -1,0 +1,36 @@
+body {
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: gainsboro;
+}
+
+.center {
+   text-align: center;
+   font-weight: bold;
+}
+
+.title {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-position: inside;
+    font-size: large;
+}
+
+.tableau {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer {
+    position: relative;
+    top: 50%;
+    left: 40%;   
+}
